@@ -212,7 +212,7 @@ class Rook:
 
 		
 	def getLocation(self):
-		return (self.gridLetter + str(self.gridNumber))
+		return (self.gridLetter + str(self.gridNumber)) #addup
 
 	def death(self, list):
 		if self.color == 'white':
